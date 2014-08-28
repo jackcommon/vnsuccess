@@ -96,7 +96,9 @@ $i++;
   $authors_post = get_field("authors_post");
   $content_post = get_field("content_post");
 ?>
-  <?php if($i==1) : ?>
+
+  <?php if ($i==1) : ?>
+ 
   <div class="box_left">
       <div class="banner_top">
         <a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="<?php echo the_title(); ?>" /></a>
@@ -108,7 +110,7 @@ $i++;
         <a class="read_more" href="<?php the_permalink(); ?>">Keep reading &rarr;</a>
       </div>
   </div>
-  <?php if(1< $i && $i<3) : ?>
+  <?php elseif (1< $i && $i<=3) : ?>
   <div class="box_right">
       <div class="banner_top">
         <a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="<?php echo the_title(); ?>" /></a>
@@ -118,7 +120,7 @@ $i++;
         <h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
       <!-- /.txt_row --></div>   
   </div>
-<?php else : ?>
+<?php else : ?>   
     <div class="loop_post">
       <div class="banner_top">
         <a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="<?php echo the_title(); ?>" /></a>
@@ -128,20 +130,8 @@ $i++;
         <h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
       <!-- /.txt_row --></div>
     </div>
-<?php endif; endif; ?>
-<?php  
-/*
-    <div class="loop_post">
-      <div class="banner_top">
-        <a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="<?php echo the_title(); ?>" /></a>
-      <!-- /.box_left --></div>
-      <div class="txt_row">
-        <p class="author"><span class="date"><?php the_time( get_option( 'date_format' ) ); ?>&mdash; By</span> <a href="<?php the_permalink(); ?>"><?php echo $authors_post; ?></a></p>
-        <h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
-      <!-- /.txt_row --></div>
-    </div>
-*/    
-?>        
+<?php endif; ?>
+       
 <?php endwhile; ?>
 <!-- /.all_post --></div>
 

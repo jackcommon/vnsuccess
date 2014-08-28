@@ -276,6 +276,10 @@ sub {
   border: 1px solid #DDDDDD;
   padding: 1.875em;;
 }
+
+.row {
+  overflow: hidden;
+}
 .box_left {
   float: left;
   width: 66.6%;
@@ -315,11 +319,8 @@ sub {
 }
 
 
-/*.loop_post:nth-child(even) {
-  clear: left;
-  float: right;
-}*/
 .loop_post {
+  margin-top: 2em;
   margin-bottom: 1.875em;
   position: relative;
   float: left;

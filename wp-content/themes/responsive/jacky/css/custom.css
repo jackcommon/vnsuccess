@@ -425,6 +425,8 @@ sub {
 }
 
 .content_ofPost p {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1.2em;  
   margin-bottom: 1em; 
 }
 .related_stories .top_items {

@@ -375,3 +375,79 @@ if ( !function_exists( 'responsive_post_meta_data' ) ) {
 	}
 
 }
+
+
+
+// =============================================
+// NEWS
+
+add_action('init', 'news');
+function news() {
+  $params = array(
+    'labels' => array(
+      'name' => 'News',
+      'singular_name' => 'News',
+      'add_new' => 'Add New News',
+      'add_new_item' => 'Add New News',
+      'edit_item' => 'Edit News',
+      'new_item' => 'New News',
+      'all_items' => 'All News',
+      'view_item' => 'View News',
+      'search_items' => 'Search',
+      'not_found' => 'Not Found',
+      'not_found_in_trash' => 'Not Found in Trash'
+    ),
+    'public' => true,
+    'has_archive' => true,
+    'supports' => array(
+      'title',
+    )
+  );
+  register_post_type('news', $params);
+
+  $labels = array(
+    'name' => _x( 'Categories', 'taxonomy general name' ),
+    'singular_name' => _x( 'Categories', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search Categories' ),
+    'popular_items' => __( 'Popular Categories' ),
+    'all_items' => __( 'All Categories' ),
+    'parent_item' => null,
+    'parent_item_colon' => null,
+    'edit_item' => __( 'Edit Categories' ),
+    'update_item' => __( 'Update Categories' ),
+    'add_new_item' => __( 'Add New Categories' ),
+    'new_item_name' => __( 'New Categories Name' ),
+    'separate_items_with_commas' => __( 'Separate writers with commas' ),
+    'add_or_remove_items' => __( 'Add or remove writers' ),
+    'choose_from_most_used' => __( 'Choose from the most used writers' )
+  );
+  $argsTax = array(
+    'hierarchical' => false,
+    'labels' => $labels,
+    'show_ui' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'Categories' ),
+  );
+
+  register_taxonomy('Categories', 'news', $argsTax );
+}
+
+function show_term_area( $defaults ) {
+  $defaults['Categories'] = 'Categories';
+  return $defaults;
+}
+add_filter('manage_news_posts_columns', 'show_term_area', 15, 1);
+
+function show_term_area_id($column_name, $id) {
+  if( $column_name == 'Categories' ) {
+    $terms = $terms = get_the_terms( $id, 'Categories' );
+    $cnt = 0;
+    foreach($terms as $var) {
+      echo $cnt != 0 ? ", " : "";
+      echo "<a href=\"" . get_admin_url() . "edit.php?Categories=" . $var->slug . "&post_type=news" . "\">" . $var->name . "</a>";
+      ++$cnt;
+    }
+  }
+}
+add_action('manage_news_posts_custom_column', 'show_term_area_id', 15, 2);
+

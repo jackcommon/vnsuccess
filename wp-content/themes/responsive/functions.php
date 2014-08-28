@@ -28,6 +28,20 @@ require( $template_directory . '/core/includes/hooks.php' );
 require( $template_directory . '/core/includes/version.php' );
 require( $template_directory . '/core/includes/upsell/theme-upsell.php' );
 
+
+function wpse87681_enqueue_custom_stylesheets() {
+    if ( ! is_admin() ) {
+        wp_enqueue_style( 'mytheme-custom', get_template_directory_uri() . '/jacky/css/custom.css' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'wpse87681_enqueue_custom_stylesheets', 11 );
+
+function wpse87681_enqueue_custom_javascript() {
+    if ( ! is_admin() ) {
+        wp_enqueue_style( 'mytheme-custom', get_template_directory_uri() . '/jacky/js/comom.js' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'wpse87681_enqueue_custom_javascript', 12 );
 // Return value of the supplied responsive free theme option.
 function responsive_free_get_option( $option, $default = false ) {
 	global $responsive_options;

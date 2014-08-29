@@ -267,13 +267,9 @@ sub {
   margin: 0 auto;
   width: 98%;
 }
-/*#container {
-  max-width: 800px;
-}*/
 #all_post {
   overflow: hidden;
   background: #fff;
-  border: 1px solid #DDDDDD;
   padding: 1.875em;;
 }
 
@@ -282,8 +278,8 @@ sub {
 }
 .box_left {
   float: left;
-  width: 66.6%;
-  padding-right: .9375em;
+  width: 64.6%;
+  padding-left: .9375em;
 }
 .txt_row .author a {
   color: #ff3c1f;
@@ -318,7 +314,16 @@ sub {
   padding-left: .9375em; 
   margin-bottom: 2em;   
 }
-
+.box_right .title {
+  font-size: 1.5em;
+}
+.box_right .title a {
+  font-family: 'Frank Light','Fjalla One'; 
+  color: #26313b;
+  font-size: 0.9em;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
 
 .loop_post {
   margin-top: 2em;
@@ -328,10 +333,17 @@ sub {
   width: 48%;
   padding-left: .9375em;  
 }
-.loop_post .title a,
-.box_right .title a {
-  font-size: 1.1em;
+.loop_post .title {
+  font-size: 1.5em;
+  margin-bottom: 0;
 }
+
+.loop_post .title a {
+  font-size: 1.1em;
+  font-weight: 100;
+  line-height: 1.25em;  
+}
+
 .loop_post .author {
   margin-bottom: 8px;
 }
@@ -455,4 +467,98 @@ sub {
   clear: none;
   padding: 0 .9375em;
   margin-bottom: 20px;
+}
+
+
+/* =author_profile
+-------------------------------------------------------------- */
+#author_profile {
+  overflow: hidden;
+}
+#author_profile .bg_main {
+  border: 1px solid #DDDDDD;
+  background: #fffcf2;
+  border-radius: 6px;
+  padding: 10px 14px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+#author_profile .col_main {
+  overflow: hidden;
+}
+#author_profile .col_main .txt {
+  padding-bottom: 12px; 
+}
+#author_profile .col_main .txt a {
+  color: #ff3c1f;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+#author_profile .col_main .txt a:hover {
+  text-decoration: underline;
+}
+#author_profile .col_main img:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+#author_profile span {
+  color: #a6abaf;
+  font-family: "FF Tisa",Georgia,serif;
+  text-transform: none;
+  font-style: italic;
+  font-size: 1em;
+  margin-right: 2px;
+}
+#author_profile p {
+  color: #a6abaf;
+}
+#author_profile .col_left {
+  float: left;
+  padding-right: 20px;
+}
+
+/* =aside
+  #widgets
+-------------------------------------------------------------- */
+#widgets .aside_email {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #DDDDDD;
+}
+
+/* =Single page
+  #list_author
+-------------------------------------------------------------- */
+#list_author {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+#list_author dt {
+  padding-bottom: 0.8em;
+}
+#list_author dd span {
+  display: inline-block;
+  float: left;
+  padding-right: 0.8em;
+}
+#metasrow {
+  background: #f5f5f5;
+}
+#metasrow h3 {
+  overflow: hidden;
+  border: 1px solid #DDDDDD;
+  background: 
+}
+#metasrow span {
+  background: #ff3c1f;
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  margin-right: 1.5em;
+  padding: 1em;
+}
+#metasrow .headline {
+  padding: 1em;
+  font-weight: bold;  
 }

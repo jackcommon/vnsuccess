@@ -451,3 +451,75 @@ function show_term_area_id($column_name, $id) {
 }
 add_action('manage_news_posts_custom_column', 'show_term_area_id', 15, 2);
 
+// =============================================
+// Author profile
+
+add_action('init', 'profile');
+function profile() {
+  $params = array(
+    'labels' => array(
+      'name' => 'Author profile',
+      'singular_name' => 'Author profile',
+      'add_new' => 'Add New Author profile',
+      'add_new_item' => 'Add New Author profile',
+      'edit_item' => 'Edit Author profile',
+      'new_item' => 'New Author profile',
+      'all_items' => 'All Author profile',
+      'view_item' => 'View Author profile',
+      'search_items' => 'Search',
+      'not_found' => 'Not Found',
+      'not_found_in_trash' => 'Not Found in Trash'
+    ),
+    'public' => true,
+    'has_archive' => true,
+    'supports' => array(
+      'title'
+    )
+  );
+  register_post_type('profile', $params);
+
+$labels = array(
+    'name' => _x( 'Author', 'taxonomy general name' ),
+    'singular_name' => _x( 'Author', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search Author' ),
+    'popular_items' => __( 'Popular Author' ),
+    'all_items' => __( 'All Author' ),
+    'parent_item' => null,
+    'parent_item_colon' => null,
+    'edit_item' => __( 'Edit Author' ),
+    'update_item' => __( 'Update Author' ),
+    'add_new_item' => __( 'Add New Author' ),
+    'new_item_name' => __( 'New Author Name' ),
+    'separate_items_with_commas' => __( 'Separate writers with commas' ),
+    'add_or_remove_items' => __( 'Add or remove writers' ),
+    'choose_from_most_used' => __( 'Choose from the most used writers' )
+  );
+  $argsTax = array(
+    'hierarchical' => false,
+    'labels' => $labels,
+    'show_ui' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'Author' ),
+  );
+
+  register_taxonomy('Author', 'profile', $argsTax );
+}
+
+function show_term_name( $defaults ) {
+  $defaults['Author'] = 'Categories';
+  return $defaults;
+}
+add_filter('manage_profile_posts_columns', 'show_term_name', 15, 1);
+
+function show_term_name_id($column_name, $id) {
+  if( $column_name == 'Author' ) {
+    $terms = $terms = get_the_terms( $id, 'Author' );
+    $cnt = 0;
+    foreach($terms as $var) {
+      echo $cnt != 0 ? ", " : "";
+      echo "<a href=\"" . get_admin_url() . "edit.php?Author=" . $var->slug . "&post_type=profile" . "\">" . $var->name . "</a>";
+      ++$cnt;
+    }
+  }
+}
+add_action('manage_profile_posts_custom_column', 'show_term_name_id', 15, 2);

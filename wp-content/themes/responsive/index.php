@@ -78,12 +78,7 @@ if( !defined( 'ABSPATH' ) ) {
   );
   query_posts($args);
 ?>
-<?php
-
-  date_default_timezone_set( 'Asia/Ho_Chi_Minh' );
-
-  $current_date = date('Y-m-d');
-?>  
+ 
 <div id="all_post">
 <?php if ( have_posts() ) : 
   $i = 0;
@@ -95,6 +90,7 @@ $i++;
   $image = get_field("banner");
   $authors_post = get_field("authors_post");
   $content_post = get_field("content_post");
+  $id_post = get_field("id_post");
 ?>
 
   <?php if ($i==1) : ?>
@@ -104,7 +100,7 @@ $i++;
         <a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="<?php echo the_title(); ?>" /></a>
       </div>
       <div class="txt_row">
-        <p class="author">By <a href="<?php the_permalink(); ?>"><?php echo $authors_post; ?></a> &mdash; <?php the_time( get_option( 'date_format' ) ); ?></p>
+        <p class="author"><span class="date">By</span> <a href="<?php the_permalink(); ?>"><?php echo $authors_post; ?></a> <span class="date">&mdash; <?php the_time( get_option( 'date_format' ) ); ?></span></p>
         <h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
         <p class="txt"><?php echo substr($content_post, 0, 294). '...' ?></p>
         <a class="read_more" href="<?php the_permalink(); ?>">Keep reading &rarr;</a>

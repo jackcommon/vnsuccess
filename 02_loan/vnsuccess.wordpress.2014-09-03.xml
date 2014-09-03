@@ -27,13 +27,13 @@
 
 <channel>
 	<title>vnsuccess</title>
-	<link>http://localhost.test/vnsuccess</link>
+	<link>http://localhost/vnsuccess</link>
 	<description>Just another WordPress site</description>
 	<pubDate>Wed, 03 Sep 2014 10:51:58 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://localhost.test/vnsuccess</wp:base_site_url>
-	<wp:base_blog_url>http://localhost.test/vnsuccess</wp:base_blog_url>
+	<wp:base_site_url>http://localhost/vnsuccess</wp:base_site_url>
+	<wp:base_blog_url>http://localhost/vnsuccess</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>vnsuccess</wp:author_login><wp:author_email>ducthinhdt@gmail.com</wp:author_email><wp:author_display_name><![CDATA[vnsuccess]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -50,10 +50,10 @@
 
 	<item>
 				<title>news</title>
-		<link>http://localhost.test/vnsuccess/?acf=acf_news</link>
+		<link>http://localhost/vnsuccess/?acf=acf_news</link>
 		<pubDate>Thu, 28 Aug 2014 04:16:48 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=acf&#038;p=5</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=acf&#038;p=5</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -120,10 +120,10 @@
 	</item>
 	<item>
 				<title>Microsoft purges over 1,500 ‘misleading’ apps from the Windows Store</title>
-		<link>http://localhost.test/vnsuccess/news/1-28-aug-14-by-jon-russell-lgs-new-g-watch-r-is-a-stylish-looking-smartwatch-with-a-1-3-inch-circular-screen-windows_8_2-jpg-28-aug-14-by-kaylene-hong-microsoft-purges/</link>
+		<link>http://localhost/vnsuccess/news/1-28-aug-14-by-jon-russell-lgs-new-g-watch-r-is-a-stylish-looking-smartwatch-with-a-1-3-inch-circular-screen-windows_8_2-jpg-28-aug-14-by-kaylene-hong-microsoft-purges/</link>
 		<pubDate>Thu, 28 Aug 2014 04:29:29 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=news&#038;p=7</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=news&#038;p=7</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -205,10 +205,10 @@
 	</item>
 	<item>
 				<title>12-520x245</title>
-		<link>http://localhost.test/vnsuccess/news/1-28-aug-14-by-jon-russell-lgs-new-g-watch-r-is-a-stylish-looking-smartwatch-with-a-1-3-inch-circular-screen-windows_8_2-jpg-28-aug-14-by-kaylene-hong-microsoft-purges/attachment/12-520x245/</link>
+		<link>http://localhost/vnsuccess/news/1-28-aug-14-by-jon-russell-lgs-new-g-watch-r-is-a-stylish-looking-smartwatch-with-a-1-3-inch-circular-screen-windows_8_2-jpg-28-aug-14-by-kaylene-hong-microsoft-purges/attachment/12-520x245/</link>
 		<pubDate>Thu, 28 Aug 2014 04:29:19 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/08/12-520x245.jpg</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/08/12-520x245.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -224,7 +224,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/08/12-520x245.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/08/12-520x245.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/08/12-520x245.jpg]]></wp:meta_value>
@@ -236,10 +236,10 @@
 	</item>
 	<item>
 				<title>LG’s new G Watch R is a stylish-looking smartwatch with a 1.3-inch circular screen</title>
-		<link>http://localhost.test/vnsuccess/news/1-28-aug-14-by-jon-russell-lgs-new-g-watch-r-is-a-stylish-looking-smartwatch-with-a-1-3-inch-circular-screen/</link>
+		<link>http://localhost/vnsuccess/news/1-28-aug-14-by-jon-russell-lgs-new-g-watch-r-is-a-stylish-looking-smartwatch-with-a-1-3-inch-circular-screen/</link>
 		<pubDate>Thu, 28 Aug 2014 04:31:21 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=news&#038;p=10</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=news&#038;p=10</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -321,10 +321,10 @@
 	</item>
 	<item>
 				<title>Windows_8_2-520x245</title>
-		<link>http://localhost.test/vnsuccess/news/1-28-aug-14-by-jon-russell-lgs-new-g-watch-r-is-a-stylish-looking-smartwatch-with-a-1-3-inch-circular-screen-windows_8_2-jpg-28-aug-14-by-kaylene-hong-microsoft-purges/attachment/windows_8_2-520x245/</link>
+		<link>http://localhost/vnsuccess/news/1-28-aug-14-by-jon-russell-lgs-new-g-watch-r-is-a-stylish-looking-smartwatch-with-a-1-3-inch-circular-screen-windows_8_2-jpg-28-aug-14-by-kaylene-hong-microsoft-purges/attachment/windows_8_2-520x245/</link>
 		<pubDate>Thu, 28 Aug 2014 04:31:35 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/08/Windows_8_2-520x245.jpg</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/08/Windows_8_2-520x245.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -340,7 +340,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/08/Windows_8_2-520x245.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/08/Windows_8_2-520x245.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/08/Windows_8_2-520x245.jpg]]></wp:meta_value>
@@ -352,10 +352,10 @@
 	</item>
 	<item>
 				<title>Samsung’s new smartwatch, the Gear S, can make calls and go online without a smartphone</title>
-		<link>http://localhost.test/vnsuccess/news/samsungs-new-smartwatch-the-gear-s-can-make-calls-and-go-online-without-a-smartphone/</link>
+		<link>http://localhost/vnsuccess/news/samsungs-new-smartwatch-the-gear-s-can-make-calls-and-go-online-without-a-smartphone/</link>
 		<pubDate>Thu, 28 Aug 2014 04:32:41 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=news&#038;p=12</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=news&#038;p=12</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -439,10 +439,10 @@
 	</item>
 	<item>
 				<title>Screenshot-2014-08-28-09.42.45-520x245</title>
-		<link>http://localhost.test/vnsuccess/news/samsungs-new-smartwatch-the-gear-s-can-make-calls-and-go-online-without-a-smartphone/attachment/screenshot-2014-08-28-09-42-45-520x245/</link>
+		<link>http://localhost/vnsuccess/news/samsungs-new-smartwatch-the-gear-s-can-make-calls-and-go-online-without-a-smartphone/attachment/screenshot-2014-08-28-09-42-45-520x245/</link>
 		<pubDate>Thu, 28 Aug 2014 04:32:37 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/08/Screenshot-2014-08-28-09.42.45-520x245.png</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/08/Screenshot-2014-08-28-09.42.45-520x245.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -458,7 +458,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/08/Screenshot-2014-08-28-09.42.45-520x245.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/08/Screenshot-2014-08-28-09.42.45-520x245.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/08/Screenshot-2014-08-28-09.42.45-520x245.png]]></wp:meta_value>
@@ -470,10 +470,10 @@
 	</item>
 	<item>
 				<title>avatar</title>
-		<link>http://localhost.test/vnsuccess/news/1-28-aug-14-by-jon-russell-lgs-new-g-watch-r-is-a-stylish-looking-smartwatch-with-a-1-3-inch-circular-screen-windows_8_2-jpg-28-aug-14-by-kaylene-hong-microsoft-purges/attachment/avatar/</link>
+		<link>http://localhost/vnsuccess/news/1-28-aug-14-by-jon-russell-lgs-new-g-watch-r-is-a-stylish-looking-smartwatch-with-a-1-3-inch-circular-screen-windows_8_2-jpg-28-aug-14-by-kaylene-hong-microsoft-purges/attachment/avatar/</link>
 		<pubDate>Thu, 28 Aug 2014 04:37:54 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/08/avatar.png</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/08/avatar.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -489,7 +489,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/08/avatar.png</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/08/avatar.png</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/08/avatar.png]]></wp:meta_value>
@@ -501,10 +501,10 @@
 	</item>
 	<item>
 				<title>Endomondo Releases an iPhone 5s App for Tracking Your Steps</title>
-		<link>http://localhost.test/vnsuccess/news/endomondo-releases-an-iphone-5s-app-for-tracking-your-steps/</link>
+		<link>http://localhost/vnsuccess/news/endomondo-releases-an-iphone-5s-app-for-tracking-your-steps/</link>
 		<pubDate>Thu, 28 Aug 2014 06:37:46 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=news&#038;p=15</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=news&#038;p=15</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -586,10 +586,10 @@
 	</item>
 	<item>
 				<title>shutterstock_106892909-520x245</title>
-		<link>http://localhost.test/vnsuccess/news/endomondo-releases-an-iphone-5s-app-for-tracking-your-steps/attachment/shutterstock_106892909-520x245/</link>
+		<link>http://localhost/vnsuccess/news/endomondo-releases-an-iphone-5s-app-for-tracking-your-steps/attachment/shutterstock_106892909-520x245/</link>
 		<pubDate>Thu, 28 Aug 2014 06:36:40 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/08/shutterstock_106892909-520x245.jpg</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/08/shutterstock_106892909-520x245.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -605,7 +605,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/08/shutterstock_106892909-520x245.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/08/shutterstock_106892909-520x245.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/08/shutterstock_106892909-520x245.jpg]]></wp:meta_value>
@@ -617,10 +617,10 @@
 	</item>
 	<item>
 				<title>795d67416e79afbcf84f2300a5ef2590</title>
-		<link>http://localhost.test/vnsuccess/news/endomondo-releases-an-iphone-5s-app-for-tracking-your-steps/attachment/795d67416e79afbcf84f2300a5ef2590/</link>
+		<link>http://localhost/vnsuccess/news/endomondo-releases-an-iphone-5s-app-for-tracking-your-steps/attachment/795d67416e79afbcf84f2300a5ef2590/</link>
 		<pubDate>Thu, 28 Aug 2014 06:37:40 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/08/795d67416e79afbcf84f2300a5ef2590.jpeg</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/08/795d67416e79afbcf84f2300a5ef2590.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -636,7 +636,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/08/795d67416e79afbcf84f2300a5ef2590.jpeg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/08/795d67416e79afbcf84f2300a5ef2590.jpeg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/08/795d67416e79afbcf84f2300a5ef2590.jpeg]]></wp:meta_value>
@@ -648,10 +648,10 @@
 	</item>
 	<item>
 				<title>Roll your own photo presets with Mix for Android</title>
-		<link>http://localhost.test/vnsuccess/news/roll-your-own-photo-presets-with-mix-for-android/</link>
+		<link>http://localhost/vnsuccess/news/roll-your-own-photo-presets-with-mix-for-android/</link>
 		<pubDate>Thu, 28 Aug 2014 07:01:36 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=news&#038;p=18</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=news&#038;p=18</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -737,10 +737,10 @@ Mix fits right in with other Android photo apps and its programmed progression a
 	</item>
 	<item>
 				<title>lomo-674x310</title>
-		<link>http://localhost.test/vnsuccess/news/roll-your-own-photo-presets-with-mix-for-android/attachment/lomo-674x310/</link>
+		<link>http://localhost/vnsuccess/news/roll-your-own-photo-presets-with-mix-for-android/attachment/lomo-674x310/</link>
 		<pubDate>Thu, 28 Aug 2014 07:01:03 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/08/lomo-674x310.jpg</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/08/lomo-674x310.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -756,7 +756,7 @@ Mix fits right in with other Android photo apps and its programmed progression a
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/08/lomo-674x310.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/08/lomo-674x310.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/08/lomo-674x310.jpg]]></wp:meta_value>
@@ -768,10 +768,10 @@ Mix fits right in with other Android photo apps and its programmed progression a
 	</item>
 	<item>
 				<title>Design a Mobile Career Site That Candidates Will Love</title>
-		<link>http://localhost.test/vnsuccess/news/design-a-mobile-career-site-that-candidates-will-love/</link>
+		<link>http://localhost/vnsuccess/news/design-a-mobile-career-site-that-candidates-will-love/</link>
 		<pubDate>Fri, 29 Aug 2014 01:43:26 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=news&#038;p=20</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=news&#038;p=20</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -851,10 +851,10 @@ Mix fits right in with other Android photo apps and its programmed progression a
 	</item>
 	<item>
 				<title>mobile-optimize-sites-520x245</title>
-		<link>http://localhost.test/vnsuccess/news/design-a-mobile-career-site-that-candidates-will-love/attachment/mobile-optimize-sites-520x245/</link>
+		<link>http://localhost/vnsuccess/news/design-a-mobile-career-site-that-candidates-will-love/attachment/mobile-optimize-sites-520x245/</link>
 		<pubDate>Fri, 29 Aug 2014 01:42:19 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/08/mobile-optimize-sites-520x245.jpg</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/08/mobile-optimize-sites-520x245.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -870,7 +870,7 @@ Mix fits right in with other Android photo apps and its programmed progression a
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/08/mobile-optimize-sites-520x245.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/08/mobile-optimize-sites-520x245.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/08/mobile-optimize-sites-520x245.jpg]]></wp:meta_value>
@@ -882,10 +882,10 @@ Mix fits right in with other Android photo apps and its programmed progression a
 	</item>
 	<item>
 				<title>HelloWorld-KoreanMapImplementation-Current-520x245</title>
-		<link>http://localhost.test/vnsuccess/news/bing-maps-updated-with-detailed-maps-of-korea/attachment/helloworld-koreanmapimplementation-current-520x245/</link>
+		<link>http://localhost/vnsuccess/news/bing-maps-updated-with-detailed-maps-of-korea/attachment/helloworld-koreanmapimplementation-current-520x245/</link>
 		<pubDate>Fri, 29 Aug 2014 01:45:30 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/08/HelloWorld-KoreanMapImplementation-Current-520x245.jpg</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/08/HelloWorld-KoreanMapImplementation-Current-520x245.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -901,7 +901,7 @@ Mix fits right in with other Android photo apps and its programmed progression a
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/08/HelloWorld-KoreanMapImplementation-Current-520x245.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/08/HelloWorld-KoreanMapImplementation-Current-520x245.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/08/HelloWorld-KoreanMapImplementation-Current-520x245.jpg]]></wp:meta_value>
@@ -913,10 +913,10 @@ Mix fits right in with other Android photo apps and its programmed progression a
 	</item>
 	<item>
 				<title>9afdbfd7244f3abb865cf798ff6d0043</title>
-		<link>http://localhost.test/vnsuccess/news/bing-maps-updated-with-detailed-maps-of-korea/attachment/9afdbfd7244f3abb865cf798ff6d0043/</link>
+		<link>http://localhost/vnsuccess/news/bing-maps-updated-with-detailed-maps-of-korea/attachment/9afdbfd7244f3abb865cf798ff6d0043/</link>
 		<pubDate>Fri, 29 Aug 2014 01:46:33 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/08/9afdbfd7244f3abb865cf798ff6d0043.jpeg</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/08/9afdbfd7244f3abb865cf798ff6d0043.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -932,7 +932,7 @@ Mix fits right in with other Android photo apps and its programmed progression a
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/08/9afdbfd7244f3abb865cf798ff6d0043.jpeg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/08/9afdbfd7244f3abb865cf798ff6d0043.jpeg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/08/9afdbfd7244f3abb865cf798ff6d0043.jpeg]]></wp:meta_value>
@@ -944,10 +944,10 @@ Mix fits right in with other Android photo apps and its programmed progression a
 	</item>
 	<item>
 				<title>Author profile</title>
-		<link>http://localhost.test/vnsuccess/?acf=acf_author-profile</link>
+		<link>http://localhost/vnsuccess/?acf=acf_author-profile</link>
 		<pubDate>Fri, 29 Aug 2014 02:07:59 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=acf&#038;p=25</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=acf&#038;p=25</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1033,10 +1033,10 @@ JP";s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:
 	</item>
 	<item>
 				<title>Point</title>
-		<link>http://localhost.test/vnsuccess/?acf=acf_point</link>
+		<link>http://localhost/vnsuccess/?acf=acf_point</link>
 		<pubDate>Wed, 03 Sep 2014 09:47:41 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=acf&#038;p=41</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=acf&#038;p=41</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1087,10 +1087,10 @@ JP";s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:
 	</item>
 	<item>
 				<title>IMG_0690</title>
-		<link>http://localhost.test/vnsuccess/point/ly-nuoc/attachment/img_0690/</link>
+		<link>http://localhost/vnsuccess/point/ly-nuoc/attachment/img_0690/</link>
 		<pubDate>Wed, 03 Sep 2014 10:27:00 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/wp-content/uploads/2014/09/IMG_0690.jpg</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/wp-content/uploads/2014/09/IMG_0690.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1106,7 +1106,7 @@ JP";s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost.test/vnsuccess/wp-content/uploads/2014/09/IMG_0690.jpg</wp:attachment_url>
+		<wp:attachment_url>http://localhost/vnsuccess/wp-content/uploads/2014/09/IMG_0690.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/09/IMG_0690.jpg]]></wp:meta_value>
@@ -1118,10 +1118,10 @@ JP";s:10:"allow_null";s:1:"0";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:
 	</item>
 	<item>
 				<title>Hello world!</title>
-		<link>http://localhost.test/vnsuccess/uncategorized/hello-world/</link>
+		<link>http://localhost/vnsuccess/uncategorized/hello-world/</link>
 		<pubDate>Thu, 28 Aug 2014 02:56:34 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?p=1</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1156,10 +1156,10 @@ To delete a comment, just log in and view the post&#039;s comments. There you wi
 	</item>
 	<item>
 				<title>Sample Page</title>
-		<link>http://localhost.test/vnsuccess/sample-page/</link>
+		<link>http://localhost/vnsuccess/sample-page/</link>
 		<pubDate>Thu, 28 Aug 2014 02:56:34 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?page_id=2</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?page_id=2</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
 
@@ -1169,7 +1169,7 @@ To delete a comment, just log in and view the post&#039;s comments. There you wi
 
 <blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
 
-As a new WordPress user, you should go to <a href="http://localhost.test/vnsuccess/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
+As a new WordPress user, you should go to <a href="http://localhost/vnsuccess/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2</wp:post_id>
 		<wp:post_date>2014-08-28 02:56:34</wp:post_date>
@@ -1204,10 +1204,10 @@ As a new WordPress user, you should go to <a href="http://localhost.test/vnsucce
 	</item>
 	<item>
 				<title>Bing Maps Updated with Detailed Maps of Korea</title>
-		<link>http://localhost.test/vnsuccess/news/bing-maps-updated-with-detailed-maps-of-korea/</link>
+		<link>http://localhost/vnsuccess/news/bing-maps-updated-with-detailed-maps-of-korea/</link>
 		<pubDate>Fri, 29 Aug 2014 01:46:42 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=news&#038;p=22</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=news&#038;p=22</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1291,10 +1291,10 @@ As a new WordPress user, you should go to <a href="http://localhost.test/vnsucce
 	</item>
 	<item>
 				<title>Author 1</title>
-		<link>http://localhost.test/vnsuccess/profile/author-1/</link>
+		<link>http://localhost/vnsuccess/profile/author-1/</link>
 		<pubDate>Fri, 29 Aug 2014 03:43:35 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=profile&#038;p=28</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=profile&#038;p=28</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1406,10 +1406,10 @@ As a new WordPress user, you should go to <a href="http://localhost.test/vnsucce
 	</item>
 	<item>
 				<title>Author 2</title>
-		<link>http://localhost.test/vnsuccess/profile/author-2/</link>
+		<link>http://localhost/vnsuccess/profile/author-2/</link>
 		<pubDate>Fri, 29 Aug 2014 03:46:44 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=profile&#038;p=29</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=profile&#038;p=29</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1521,10 +1521,10 @@ As a new WordPress user, you should go to <a href="http://localhost.test/vnsucce
 	</item>
 	<item>
 				<title>Author 3</title>
-		<link>http://localhost.test/vnsuccess/profile/author-3/</link>
+		<link>http://localhost/vnsuccess/profile/author-3/</link>
 		<pubDate>Fri, 29 Aug 2014 03:50:57 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=profile&#038;p=30</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=profile&#038;p=30</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1636,10 +1636,10 @@ As a new WordPress user, you should go to <a href="http://localhost.test/vnsucce
 	</item>
 	<item>
 				<title>profile</title>
-		<link>http://localhost.test/vnsuccess/profile/</link>
+		<link>http://localhost/vnsuccess/profile/</link>
 		<pubDate>Fri, 29 Aug 2014 04:32:48 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?page_id=31</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?page_id=31</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1670,10 +1670,10 @@ As a new WordPress user, you should go to <a href="http://localhost.test/vnsucce
 	</item>
 	<item>
 				<title>change point</title>
-		<link>http://localhost.test/vnsuccess/point/</link>
+		<link>http://localhost/vnsuccess/point/</link>
 		<pubDate>Wed, 03 Sep 2014 09:43:08 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?page_id=39</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?page_id=39</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1704,10 +1704,10 @@ As a new WordPress user, you should go to <a href="http://localhost.test/vnsucce
 	</item>
 	<item>
 				<title>Ly nuoc</title>
-		<link>http://localhost.test/vnsuccess/point/ly-nuoc/</link>
+		<link>http://localhost/vnsuccess/point/ly-nuoc/</link>
 		<pubDate>Wed, 03 Sep 2014 10:27:12 +0000</pubDate>
 		<dc:creator><![CDATA[vnsuccess]]></dc:creator>
-		<guid isPermaLink="false">http://localhost.test/vnsuccess/?post_type=point&#038;p=45</guid>
+		<guid isPermaLink="false">http://localhost/vnsuccess/?post_type=point&#038;p=45</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>

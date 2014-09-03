@@ -6,8 +6,7 @@ if( !defined( 'ABSPATH' ) ) {
 }
 
 /**
- * 
-Template Name: profile
+ * Template Name: profile
  *
  *
  * @file           profile.php

@@ -29,6 +29,7 @@ get_header(); ?>
   $authors_post = get_field("authors_post");
   $avatar = get_field("avatar");
 ?>
+<?php $term_list = wp_get_post_terms(get_the_ID(), 'Categories', array("fields" => "all"));?>
   <div class="article">
     <?php while (have_posts()) : the_post(); ?>
       <h1 class="big_title"><?php echo the_title(); ?></h1>
@@ -46,13 +47,17 @@ get_header(); ?>
           <p><?php echo $content_post; ?></p>
         <!-- /.content_ofPost --></div>
       <!-- /.row_post --></div>
-    <?php endwhile; // end of the loop. ?>    
+    <?php endwhile; // end of the loop. ?>
+    <div class="comment">
+      <div class="fb-comments" data-href="http://vnaka.com/" data-width="900" data-numposts="5" data-colorscheme="light"></div>
+    <!-- /.comment --></div>    
   <!-- /.article --></div>
     <div class="related_stories">
       <div class="title">
         <h3 class="top_items">➤&nbsp;Related stories</h3>
       </div>
       <div class="related">
+      <?php $id_slug = $term_list[0]->slug; ?>  
       <?php
         $args = array(
           "post_type" => "news",
@@ -60,17 +65,21 @@ get_header(); ?>
         );
         query_posts($args);
       ?>
+
       <ul>
       <?php if ( have_posts() ) :
       // get only thumbnail of category
       while ( have_posts() ) : the_post();?>
       <?php
         $image = get_field("banner");
-      ?> 
-      <li>
-        <a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="" /></a>
-        <p><?php echo the_title(); ?></p>
-      </li>
+        $id_news = get_field("id_news");
+      ?>
+      <?php if($id_news == $id_slug) : ?>  
+        <li>
+          <a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="" /></a>
+          <p><?php echo the_title(); ?></p>
+        </li>
+      <?php endif; ?>
       <?php endwhile; endif; wp_reset_query(); ?>
       </ul>
       <!-- /.related --></div>
@@ -97,3 +106,11 @@ get_header(); ?>
 
 }(jQuery, window));  
 </script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=222487204609916&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

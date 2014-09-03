@@ -523,3 +523,32 @@ function show_term_name_id($column_name, $id) {
   }
 }
 add_action('manage_profile_posts_custom_column', 'show_term_name_id', 15, 2);
+
+
+// =============================================
+// get ponit
+
+add_action('init', 'point');
+function point() {
+  $params = array(
+    'labels' => array(
+      'name' => 'Author Point',
+      'singular_name' => 'Author Point',
+      'add_new' => 'Add New Author Point',
+      'add_new_item' => 'Add New Author Point',
+      'edit_item' => 'Edit Author Point',
+      'new_item' => 'New Author Point',
+      'all_items' => 'All Author Point',
+      'view_item' => 'View Author Point',
+      'search_items' => 'Search',
+      'not_found' => 'Not Found',
+      'not_found_in_trash' => 'Not Found in Trash'
+    ),
+    'public' => true,
+    'has_archive' => true,
+    'supports' => array(
+      'title'
+    )
+  );
+  register_post_type('point', $params);
+}

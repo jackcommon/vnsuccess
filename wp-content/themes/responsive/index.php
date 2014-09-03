@@ -22,7 +22,7 @@ if( !defined( 'ABSPATH' ) ) {
 ?>
 
 <?php get_header(); ?>
-<div id="content" class="grid col-800">
+<div id="content" class="grid col-960">
 <?php
 /*	<?php if( have_posts() ) : ?>
 
@@ -73,7 +73,7 @@ if( !defined( 'ABSPATH' ) ) {
     "post_type" => "news",
     "posts_per_page" => 10,
     'taxonomy' => 'Categories',
-    'term' => 'tin-tuc',
+    // 'term' => 'tin-tuc',
     'paged' => $paged
   );
   query_posts($args);
@@ -91,6 +91,7 @@ $i++;
   $authors_post = get_field("authors_post");
   $content_post = get_field("content_post");
   $id_post = get_field("id_post");
+  $link = get_field("link");
 ?>
 
   <?php if ($i==1) : ?>
@@ -100,7 +101,7 @@ $i++;
         <a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="<?php echo the_title(); ?>" /></a>
       </div>
       <div class="txt_row">
-        <p class="author"><span class="date">By</span> <a href="<?php the_permalink(); ?>"><?php echo $authors_post; ?></a> <span class="date">&mdash; <?php the_time( get_option( 'date_format' ) ); ?></span></p>
+        <p class="author"><span class="date">By</span> <a href="<?php echo $link; ?>"><?php echo $authors_post; ?></a> <span class="date">&mdash; <?php the_time( get_option( 'date_format' ) ); ?></span></p>
         <h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
         <p class="txt"><?php echo substr($content_post, 0, 294). '...' ?></p>
         <a class="read_more" href="<?php the_permalink(); ?>">Keep reading &rarr;</a>
@@ -112,7 +113,7 @@ $i++;
         <a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="<?php echo the_title(); ?>" /></a>
       <!-- /.box_left --></div>
       <div class="txt_row">
-        <p class="author"><span class="date"><?php the_time( get_option( 'date_format' ) ); ?>&mdash; By</span> <a href="<?php the_permalink(); ?>"><?php echo $authors_post; ?></a></p>
+        <p class="author"><span class="date"><?php the_time( get_option( 'date_format' ) ); ?>&mdash; By</span> <a href="<?php echo $link; ?>"><?php echo $authors_post; ?></a></p>
         <h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
       <!-- /.txt_row --></div>   
   </div>
@@ -122,7 +123,7 @@ $i++;
         <a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="<?php echo the_title(); ?>" /></a>
       <!-- /.box_left --></div>
       <div class="txt_row">
-        <p class="author"><span class="date"><?php the_time( get_option( 'date_format' ) ); ?>&mdash; By</span> <a href="<?php the_permalink(); ?>"><?php echo $authors_post; ?></a></p>
+        <p class="author"><span class="date"><?php the_time( get_option( 'date_format' ) ); ?>&mdash; By</span> <a href="<?php echo $link; ?>"><?php echo $authors_post; ?></a></p>
         <h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
       <!-- /.txt_row --></div>
     </div>

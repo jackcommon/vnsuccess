@@ -8,6 +8,7 @@ if( !defined( 'ABSPATH' ) ) {
 /**
  * Archive Template
  *
+ Template Name: profile
  *
  * @file           archive.php
  * @package        Responsive
@@ -45,7 +46,8 @@ get_header(); ?>
       $mobile = get_field("mobile");
       $country = get_field("country");
       $gender = get_field("gender");
-      $birthday = get_field("birthday");  
+      $birthday = get_field("birthday");
+      $point = get_field("point");  
     ?>
   <div class="bg_main">    
       <li>
@@ -56,7 +58,7 @@ get_header(); ?>
           <!-- /.col_left --></div>
           <div class="col_right">
             <p><span>Nick Name: </span><?php echo $nick; ?></p>
-            <p><span>Email Address: </span><?php echo $email; ?></p>
+            <p><span>Get Point: </span><?php echo $point; ?></p>
             <p><span>Country: </span><?php echo $country; ?></p>
           <!-- /.col_right --></div>
         <!-- /.col_main --></div>

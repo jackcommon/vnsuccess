@@ -47,10 +47,10 @@ get_header(); ?>
           <p><?php echo $content_post; ?></p>
         <!-- /.content_ofPost --></div>
       <!-- /.row_post --></div>
+      <div class="comment">
+        <div class="fb-comments" data-href="http://vnaka.com/" data-width="900" data-numposts="5" data-colorscheme="light"></div>
+      <!-- /.comment --></div>    
     <?php endwhile; // end of the loop. ?>
-    <div class="comment">
-      <div class="fb-comments" data-href="http://vnaka.com/" data-width="900" data-numposts="5" data-colorscheme="light"></div>
-    <!-- /.comment --></div>    
   <!-- /.article --></div>
     <div class="related_stories">
       <div class="title">

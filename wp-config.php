@@ -26,13 +26,13 @@ if ($_SERVER["HTTP_HOST"] === 'localhost' || ($_SERVER["HTTP_HOST"] === 'localho
   $db_user = 'vnaka';
   $password = 'vnakavnaka';
 }
-define('DB_NAME', $db_name);
+define('DB_NAME', 'vnaka_vnsuccess');
 
 /** MySQL database username */
-define('DB_USER', $db_user);
+define('DB_USER', 'vnaka');
 
 /** MySQL database password */
-define('DB_PASSWORD', $password);
+define('DB_PASSWORD', 'vnakavnaka');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

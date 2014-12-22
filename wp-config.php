@@ -16,11 +16,12 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+$remote_server = 'news.vnaka.com';
 if (($_SERVER["HTTP_HOST"] === 'localhost') || ($_SERVER["HTTP_HOST"] === 'localhost.test')){
   $db_name = 'vnsuccess';
   $db_user = 'root';
   $password = '';
-} elseif (($_SERVER["HTTP_HOST"] === 'news.vnaka.com') || ($_SERVER["HTTP_HOST"] === 'www.news.vnaka.com')) {
+} elseif (($_SERVER["HTTP_HOST"] === $remote_server) || ($_SERVER["HTTP_HOST"] === 'www.'.$remote_server)) {
   $db_name = 'vnaka_vnsuccess';
   $db_user = 'vnaka';
   $password = 'vnakavnaka';
@@ -93,7 +94,7 @@ define('WP_DEBUG', false);
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+  define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

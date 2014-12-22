@@ -16,23 +16,22 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-$remote_server = 'news.vnaka.com';
-if ($_SERVER["HTTP_HOST"] === 'localhost' || ($_SERVER["HTTP_HOST"] === 'localhost.test')){
+if (($_SERVER["HTTP_HOST"] === 'localhost') || ($_SERVER["HTTP_HOST"] === 'localhost.test')){
   $db_name = 'vnsuccess';
   $db_user = 'root';
   $password = '';
-} elseif (($_SERVER["HTTP_HOST"] === $remote_server.'.com') || ($_SERVER["HTTP_HOST"] === 'www.'.$remote_server.'.com')) {
+} elseif (($_SERVER["HTTP_HOST"] === 'news.vnaka.com') || ($_SERVER["HTTP_HOST"] === 'www.news.vnaka.com')) {
   $db_name = 'vnaka_vnsuccess';
   $db_user = 'vnaka';
   $password = 'vnakavnaka';
 }
-define('DB_NAME', 'vnaka_vnsuccess');
+define('DB_NAME', $db_name);
 
 /** MySQL database username */
-define('DB_USER', 'vnaka');
+define('DB_USER', $db_user);
 
 /** MySQL database password */
-define('DB_PASSWORD', 'vnakavnaka');
+define('DB_PASSWORD', $password);
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

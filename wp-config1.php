@@ -16,23 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-$remote_server = 'news.vnaka.com';
-if ($_SERVER["HTTP_HOST"] === 'localhost' || ($_SERVER["HTTP_HOST"] === 'localhost.test')){
-  $db_name = 'vnsuccess';
-  $db_user = 'root';
-  $password = '';
-} elseif (($_SERVER["HTTP_HOST"] === $remote_server.'.com') || ($_SERVER["HTTP_HOST"] === 'www.'.$remote_server.'.com')) {
-  $db_name = 'vnaka_vnsuccess';
-  $db_user = 'vnaka';
-  $password = 'vnakavnaka';
-}
-define('DB_NAME', $db_name);
+define('DB_NAME', 'vnaka_vnsuccess');
 
 /** MySQL database username */
-define('DB_USER', $db_user);
+define('DB_USER', 'vnaka');
 
 /** MySQL database password */
-define('DB_PASSWORD', $password);
+define('DB_PASSWORD', 'vnakavnaka');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -52,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '|BnwEm_p[>tJ4l&$hH@gdvx]sK)8fT`n2dUn4p+:V* bJ>BKB9f&N|d-@$)eC6sv');
-define('SECURE_AUTH_KEY',  'd5R%dWIkCY|{%P7QO_~S}lu@_~XLG_Gho.XFXc]<mV N^H.f[:{jh|46bkD|/B`N');
-define('LOGGED_IN_KEY',    '_7h2H,Y3oXXr(UE@@|Jod{t3V-0#-L]NkQ)?0x8|, mpF9C}@Q<y2IaCWnwyM#6X');
-define('NONCE_KEY',        '#+HS- CZ.<GIwuMXc|&%BS?@1Pl3PMbw?s+Fui+?q2>wz@m}=YTA7D$ke@L1EnO[');
-define('AUTH_SALT',        '}E3HVsKw8h3h`;XkOvgO!KTtg*xQeC=P;Eju&xl`}_n@[_q!hAeCtM`ao9wi^|+C');
-define('SECURE_AUTH_SALT', 'kQa> 0uYFiZe}WU,]u :X&E?,JmVU}NUT1rQ3_a0ufs?QG/{:s:!o|}Ja,_)b)D:');
-define('LOGGED_IN_SALT',   'a+,O-A7>2P<d8pr-6;;L7;xgAGj2NJd*5Bf <766-LJAv$O/5!:3Xv ?kO|WGlX+');
-define('NONCE_SALT',       '-]3l+4MT- xH-&!k8p)ge_GlqaWF_mC[28|jm!/mS2kQCo*bdHo7:U?ar2|V|n|W');
+define('AUTH_KEY',         '^pSqu|#^}!aW!k I^oy#o6P^o6gTW+XV*1q^Kn-/4q_(*%$:T@]a`Hnz<U8mz-SI');
+define('SECURE_AUTH_KEY',  'Y7fr>r2r:v[f ,KUlhVa?*JG`k*g)~DsKBtY`wB|y|vxz<$Yb=z!(3:uz+PL$#5*');
+define('LOGGED_IN_KEY',    ']wW_m3Fg](26~(DF[{eEK=+;_G$sw4L95}MkR9hou`9*a,v}t<P|BX*%uu&992xQ');
+define('NONCE_KEY',        '>-DmbkIA: UC=Rg#7J_Y%XoG# w6&--Gp^<K~W9IT9y8=q2~%;LL9iDK5H?k Sqc');
+define('AUTH_SALT',        'DRA69vt5(ayZP] d{q6oz];b[mIU WAwef+I&%g-IND^ztYBnt+Z:+XZcsU|.lh7');
+define('SECURE_AUTH_SALT', 'u:<~` r1$h5NUJ[mIh-L?<u<BS*S[B38[z,8Ayr|w.2OwjI0]N~m r=;WR)3]bL9');
+define('LOGGED_IN_SALT',   '2ql+PU5D=)ADG9}KH5AITB|^;`|9:Tx6,n=r#L-q&?qt6fj#-5OoD{!yu&AM&B<&');
+define('NONCE_SALT',       'Eku|RB7h|*>`X5z`DwlWALC_<e%(%_UZT_BK.v=|_%x?|95cB^9.q-Lfp8twc|fK');
 
 /**#@-*/
 

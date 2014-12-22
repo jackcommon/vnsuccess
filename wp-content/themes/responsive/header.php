@@ -75,7 +75,7 @@ if( !defined( 'ABSPATH' ) ) {
 			</div><!-- end of #logo -->
 
 		<?php endif; // header image was removed ?>
-<?php echo qtrans_generateLanguageSelectCode('dropdown'); ?>
+
 		<?php if( !get_header_image() ) : ?>
 
 			<div id="logo">

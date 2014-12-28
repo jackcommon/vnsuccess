@@ -18,7 +18,7 @@
 /** The name of the database for WordPress */
 $remote_server = 'news.vnaka.com';
 if (($_SERVER["HTTP_HOST"] === 'localhost') || ($_SERVER["HTTP_HOST"] === 'localhost.test')){
-  $db_name = 'vnsuccess';
+  $db_name = 'vnaka_vnsuccess';
   $db_user = 'root';
   $password = '';
 } elseif (($_SERVER["HTTP_HOST"] === $remote_server) || ($_SERVER["HTTP_HOST"] === 'www.'.$remote_server)) {

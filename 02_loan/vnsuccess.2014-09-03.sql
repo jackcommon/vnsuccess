@@ -19,8 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `vnsuccess`
 --
-CREATE DATABASE IF NOT EXISTS `vnsuccess` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `vnsuccess`;
+CREATE DATABASE IF NOT EXISTS `vnaka_vnsuccess` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `vnaka_vnsuccess`;
 
 -- --------------------------------------------------------
 

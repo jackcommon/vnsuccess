@@ -180,6 +180,17 @@ sub {
 	vertical-align: sub;
 }
 
+
+.site-description {
+  display: none;
+}
+#logo {
+  margin-bottom: 25px;
+}
+
+.comment {
+  display: none;
+}
 /* =font-face
 -------------------------------------------------------------- */
 @font-face {
@@ -845,4 +856,17 @@ sub {
 
 #welcome_user {
   margin-bottom: 20px;
+}
+
+.noteTit {
+  font-weight: bold;
+}
+.content_ofPost > p > b {
+  float: left;
+  font-family: 'Source Sans Pro',sans-serif;
+  color: #ff3c1f;
+  font-size: 3.6em;
+  font-weight: 100;
+  line-height: 1em;
+  margin: -0.04em .2em -0.15em 0;
 }
